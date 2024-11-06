@@ -9,7 +9,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class LoginSteps {
+public class LoginStepsTest {
 	
 	WebDriver driver;
 	loginpage login;
@@ -17,6 +17,7 @@ public class LoginSteps {
 	@Given("User is on login page")
 	public void user_is_on_login_page() {
 		
+		System.setProperty("webdriver.chrome.driver", "C://Work/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.saucedemo.com/");
 		//System.out.println("in login page");

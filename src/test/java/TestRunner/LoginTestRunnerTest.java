@@ -12,6 +12,6 @@ plugin = {"pretty", "json:target/JSONReports/report.json",				//to generate json
 		   "pretty", "html:target/HtmlReports/report.html",	
 		   "pretty", "junit:target/JunitReports/report.xml"}
 		)
-public class LoginTestRunner {
+public class LoginTestRunnerTest {
 
 }
